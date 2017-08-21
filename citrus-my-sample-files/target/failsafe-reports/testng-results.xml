@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="164" started-at="2017-08-21T20:39:26Z" finished-at="2017-08-21T20:39:26Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="164" started-at="2017-08-21T20:39:26Z" finished-at="2017-08-21T20:39:26Z">
+      <class name="com.consol.citrus.samples.SampleJavaIT">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="beforeSuite" is-config="true" duration-ms="875" started-at="2017-08-21T16:39:25Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fd8294b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleJavaIT.echoToday()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="echoToday()[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="echoToday" duration-ms="11" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- echoToday -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleJavaIT.echoToday()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleJavaIT.sayHello()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sayHello()[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="sayHello" duration-ms="2" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sayHello -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleJavaIT.sayHello()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.consol.citrus.samples.SampleJavaIT@67a20f67]" name="afterSuite" is-config="true" duration-ms="16" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fd8294b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.consol.citrus.samples.SampleJavaIT -->
+      <class name="com.consol.citrus.samples.SampleXmlIT">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2017-08-21T16:39:26Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleXmlIT.sampleXml()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sampleXml()[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="sampleXml" duration-ms="138" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleXml -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.consol.citrus.samples.SampleXmlIT@13e39c73]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-08-21T16:39:26Z" finished-at="2017-08-21T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.consol.citrus.samples.SampleXmlIT.sampleXml()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.consol.citrus.samples.SampleXmlIT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
